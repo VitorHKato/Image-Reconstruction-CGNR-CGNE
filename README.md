@@ -23,15 +23,27 @@ http://127.0.0.1:8000/api/generate_images/    #Realiza a reconstrução das imag
 Json de exemplo:
 [
 {
-  "user_id": 2,
-  "user_name": "vitor2",
+  "user_id": 8,
+  "user_name": "vitor8",
+  "algorithm": "cgnr",
+  "signal_name": "30x30-1"
+},
+{
+  "user_id": 9,
+  "user_name": "vitor9",
   "algorithm": "cgnr",
   "signal_name": "30x30-2"
 },
 {
-  "user_id": 3,
-  "user_name": "vitor3",
+  "user_id": 10,
+  "user_name": "vitor10",
   "algorithm": "cgnr",
-  "signal_name": "30x30-1"
+  "signal_name": "60x60-1"
+},
+{
+  "user_id": 11,
+  "user_name": "vitor11",
+  "algorithm": "cgnr",
+  "signal_name": "60x60-2"
 }
 ]
